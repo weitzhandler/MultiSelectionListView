@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MultiSelectionListView (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MultiSelectionListView (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

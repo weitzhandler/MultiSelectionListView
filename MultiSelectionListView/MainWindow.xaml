@@ -1,0 +1,17 @@
+<Window
+    x:Class="MultiSelectionListView.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Page x:Name="page">
+        <StackPanel>
+            <TextBlock Text="Regular:" FontWeight="Bold"/>
+            <ListView SelectionMode="Multiple" ItemsSource="{Binding Names}"/>
+
+            <Border Height="2" Background="Gray"/>
+
+            <TextBlock Text="MVUX:" FontWeight="Bold"/>
+            <ListView SelectionMode="Multiple" ItemsSource="{Binding MvuxNames}"/>
+        </StackPanel>
+    </Page>
+</Window>
